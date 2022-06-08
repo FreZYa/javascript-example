@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Draggable - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(function() {
+                $("#accordion").accordion();
+            });
+        });
+    </script>
+    <style>
+        .box {
+            background-color: yellow;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div style="background-color:blue;" id="accordion">
+        <div id="box">Heading 1</div>
+        <div id="box">Paragraph 1</div>
+
+        <div id="box">Heading 2</div>
+        <div id="box">Paragraph 2</div>
+
+        <div id="box">Heading 3</div>
+        <div id="box">Paragraph 3</div>
+    </div>
+
+
+</body>
+
+</html>

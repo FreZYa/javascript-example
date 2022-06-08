@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                alert($("#ya").attr("href", "http://www.youtube.com/about"));
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p>
+        <a href="http://www.youtube.com" id="ya">http://www.youtube.com</a>
+    </p>
+
+    <button>Change Link URL</button>
+
+</body>
+
+</html>
